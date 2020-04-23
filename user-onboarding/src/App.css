@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+label {
+  display: block;
+  margin-bottom: 16px;
+}
+input[type=text], select {
+  height: 1.5rem;
+}
+button {
+  color: white;
+  background-color: green;
+  height: 2rem;
+  width: 4rem;
+  border-radius: 8px;
+}
+
+ :disabled {
+    color: white;
+    background-color: firebrick;
+  }
+
+.error {
+  font-size: 1.2rem;
+  color: firebrick;
+}
